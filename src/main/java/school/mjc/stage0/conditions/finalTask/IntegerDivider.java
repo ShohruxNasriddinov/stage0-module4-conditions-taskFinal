@@ -5,9 +5,9 @@ public class IntegerDivider {
         if (dividend%divider==0){
             System.out.println("can be divided completely");
         } else if (divider==0) {
-            System.out.println("cannot be divided completely");
-        }else {
             System.out.println("division by zero");
+        }else {
+            System.out.println("cannot be divided completely");
         }
     }
 }
